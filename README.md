@@ -4,15 +4,19 @@ This is my final year thesis work based on the use of decision tree algorithms f
 ## Problem Statement
 Cloud has moved beyond the promise of cost savings. As a result, we need to consider the perspective of cloud service providers and not just what the end user or client needs. 
 >When a cloud service provider recieves similar resuource requests from multiple clients, on what basis will resource scheduling take place? 
+
 >How will the service provider decide which user deserves to be allocated those requested resources?
 
 ## Proposed Solution
-THe cloud service provider must accurately classify his client database into priority classes where in each client is classified based on the efficiency of use of previosuly allocated resources.
+The cloud service provider must accurately classify his client database into priority classes where in each client is classified based on the efficiency of use of previosuly allocated resources.
 For eg.
 User A has 120Gb RAM, and 1Tb Memory allocated.
+
 User B has 150Gb RAM, and 1Tb Memory allocated.
 
+
 User A has used 500Gb memory and performs computation that consume 20% CPU load.
+
 User B has used 800Gb memory and performs computation that consumes 85% CPU load.
 
 Under such circumstances, if User A and B, both make requests for additional 100Gb memory, User B will be granted the request first, and User A may be granted later, or never (as per administrato review). This is done because User A has not yet used all resources and allocating additional resources to User A will be wasteful.
@@ -24,6 +28,7 @@ This classification example is a very simple problem where easy parameters were 
 ## Stages
 
 This project is divided into three stages namely, IaaS, SaaS and User Reputation System.
+
 The initial function is to implement the Infrastructutre as a Service functionality. It is followed by developing a software to serve the Software as a Service functionality. Finally, the infrastructure created is used along with the software to develop a user reputation system.
 
 ### Infrastructure as a Service

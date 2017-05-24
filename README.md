@@ -1,5 +1,7 @@
 # Cloud Computing- IaaS, SaaS and User Reputation System for Cloud Service Providers
-This is my final year thesis work based on the use of decision tree algorithms for accurate user classification ( users here are clients to cloud service providers)
+This is my final year thesis work based on the use of a decision tree algorithm for accurate user classification ( users here are clients to cloud service providers).
+
+Team members include @Lucky94 and @jiya-singh
 
 ## Problem Statement
 Cloud has moved beyond the promise of cost savings. As a result, we need to consider the perspective of cloud service providers and not just what the end user or client needs. 
@@ -10,6 +12,7 @@ Cloud has moved beyond the promise of cost savings. As a result, we need to cons
 ## Proposed Solution
 The cloud service provider must accurately classify his client database into priority classes where in each client is classified based on the efficiency of use of previosuly allocated resources.
 For eg.
+
 User A has 120Gb RAM, and 1Tb Memory allocated.
 
 User B has 150Gb RAM, and 1Tb Memory allocated.

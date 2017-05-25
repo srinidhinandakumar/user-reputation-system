@@ -19,6 +19,12 @@ done
 uptime
 ```
 
+>service1_stop.sh
+
+```
+!/bin/bash
+	kill "$(ps -o user=,pid=,stat= -C sh | grep daemon | grep R | cut -b11-15)"
+```
 ##  Service #2: High Stress
 > service2.sh
 
@@ -26,6 +32,15 @@ uptime
 uptime
       stress -c 9 -i 7 -m 2 --vm-bytes 512M -t 100s  #time
 uptime
+```
+
+>service2_stop.sh
+
+```
+!/bin/bash
+	echo `ps -o user=,pid= -C 'stress  -c 9 -i 7 -m 2 --vm-bytes 512M -t 100s' | grep coed | cut -b11-15`
+	
+	#sudo pkill stress
 ```
 
 ##  Service #3: Low Stress
@@ -37,9 +52,26 @@ uptime
 uptime
 ```
 
+>service3_stop.sh
+
+```
+!/bin/bash
+	echo `ps -o user=,pid= -C 'stress  -c 6 -i 4 -m 1 --vm-bytes 256M -t 100s' | grep coed | cut -b11-15`
+	
+	sudo pkill stress
+```
+
 ## Service #4: Launch Application
 >service4.sh (Sublime Text)
 
 ```
 /usr/bin/subl %F
+```
+
+>service4_stop.sh
+
+```
+!/bin/bash
+
+	pkill subl
 ```

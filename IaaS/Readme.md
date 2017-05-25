@@ -33,9 +33,9 @@ The structure includes a total of 30 VMs with Ubuntu OS and 30 VMs with Mac OS.
 
 ### Method 1: We referred to [this](http://docs.trendmicro.com/all/ent/dda/v2.95/en-us/dda_2.95_olh/deploy_create_new_sb.html#id12BCD070W5Z) link 
 
-### Method 2: The procedures followed are as follows:-
+### Method 2: The procedure followed is as enlisted bellow
 
-1. Vmware->preferences->storage->browse datastore (by right clicking on appropriate datastore)
+1. Vmware-> Preferences-> Storage-> Browse Datastore (by right clicking on appropriate datastore)
 2. Select and copy the folder (from dialog box just opened) corresponding to the virtual machine created​ beforehand 
 3. Create a new folder, name the new virtual machine, and paste there
 4. After copy is completed, right click on '.vmx' file and select 'add to inventory'. A new virtual machine will be created in the list

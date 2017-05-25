@@ -72,6 +72,10 @@ uptime
 
 ```
 !/bin/bash
-
 	pkill subl
 ```
+
+## Web Application
+
+Can be found in index.html
+

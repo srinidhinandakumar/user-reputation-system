@@ -4,9 +4,42 @@ The primary reason for this was that, there were no real time clients except stu
 Clients can use stress, infinit loops, and/or launch and use other applications like firefox, sublimetext, etc.
 The code to start and stop these services is as follows:-
 
-##  Service #1: High Stress
-> service1.sh
+## Service #1: Infinite Loop
+>service1.sh
+
+```
+!/bin/bash
+uptime
+
+while true
+do
+	echo "Do something; hit [CTRL+C] to stop!"
+done
+
+uptime
+```
+
+##  Service #2: High Stress
+> service2.sh
+
 ```
 uptime
-      stress -c 9 -i 7 -m 2 --vm-bytes 512M -t 100s#time
+      stress -c 9 -i 7 -m 2 --vm-bytes 512M -t 100s  #time
+uptime
+```
+
+##  Service #3: Low Stress
+> service3.sh
+
+```
+uptime
+      stress -c 6 -i 4 -m 1 --vm-bytes 256M -t 100s  #time
+uptime
+```
+
+## Service #4: Launch Application
+>service4.sh (Sublime Text)
+
+```
+/usr/bin/subl %F
 ```

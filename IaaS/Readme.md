@@ -7,17 +7,17 @@ using thin provision and Apple Mac OS X 10.10.
 
 ## Virtual Machine details:-
 1. Ubuntu 16.04
-  – OS type: 64 bit
-  – Disk Space: 31.6 GB
-  – Memory (RAM): 2.0 GiB
-  – Softwares Installed: Sublime Text, GNUSim 8085, Logisim, CodeBlocks,Wireshark, Stress
+    * OS type: 64 bit
+    * Disk Space: 31.6 GB
+    * Memory (RAM): 2.0 GiB
+    * Softwares Installed: Sublime Text, GNUSim 8085, Logisim, CodeBlocks,Wireshark, Stress
 
 2. Apple Mac OS X 10.10
-  – OS Type: 64 bit
-  – Disk space 165 GB
-  – CPU 2 core vcpu
-  – RAM 4.0/8.0/12.0 GiB
-  – Softwares Installed: Sublime Text, GNUSim 8085, Logisim, CodeBlocks,Wireshark, Xcode, Stress
+    * OS Type: 64 bit
+    * Disk space 165 GB
+    * CPU 2 core vcpu
+    * RAM 4.0/8.0/12.0 GiB
+    * Softwares Installed: Sublime Text, GNUSim 8085, Logisim, CodeBlocks,Wireshark, Xcode, Stress
   
   
 The setup included assigning a virtual machine to be the server, while deploying the other machines as clients.

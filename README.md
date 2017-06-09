@@ -35,11 +35,11 @@ This project is divided into three stages namely, IaaS, SaaS and User Reputation
 The initial function is to implement the Infrastructutre as a Service functionality. It is followed by developing a software to serve the Software as a Service functionality. Finally, the infrastructure created is used along with the software to develop a user reputation system.
 
 ### Infrastructure as a Service
-Cloud model used was based on the esXi server in vCloud (using Vmware). Deployment of 60 Virtual Machines of Ubuntu and Mac Os were done and used as clients to the cloud model. Details of the same can be found in the IaaS repository.
+Cloud model used was based on the esXi server in vCloud (using Vmware). Deployment of 60 Virtual Machines of Ubuntu and Mac Os were done and used as clients to the cloud model. Details of the same can be found in the "IaaS" repository.
 
 ### Software as a Service
-A basic web application was developed to serve the purpose of load generation. Client portal allowed clients to run two kinds of stress funtions, infinite loop and launch and closing of various applications like firefox, logisim, sublimetext, xcode(in Mac Os), etc.
+A basic web application was developed to serve the purpose of load generation. Client portal allowed clients to run two kinds of stress funtions, infinite loop and launch and closing of various applications like firefox, logisim, sublimetext, xcode(in Mac Os), etc. Details of the same can be found in the "SaaS" repository.
 
 ### User Reputation System
-C4.5 decision tree algorithm was used to train the model on collected client data. The training code geenrated a ruleset against which the testing data was tested for its accuracy. Further a simple java code was written to correctly classify the incorrect classifications to improve the training model set. Details of the same can be found in the "User Reputation System" repository.
+C4.5 decision tree algorithm was used to train the model on collected client data. The training code generated a ruleset against which testing data was tested for its accuracy. Further a simple java code was written to correctly classify the incorrect classifications to improve the training model set. Details of the same can be found in the "User Reputation System" repository.
 

@@ -1,7 +1,7 @@
 # Software as a Service
-A basic web application was developed for the client to manage load geenration. 
+A basic web application was developed for the client to manage load generation. 
 The primary reason for this was that, there were no real time clients except students and teachers. 
-Clients can use stress, infinit loops, and/or launch and use other applications like firefox, sublimetext, etc.
+Clients can use stress, infinite loops, and/or launch and use other applications like firefox, sublimetext, etc.
 The code to start and stop these services is as follows:-
 
 ## Service #1: Infinite Loop
